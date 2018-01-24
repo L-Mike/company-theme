@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "company",
   "version": "0.1.0",
@@ -26,3 +27,33 @@
     "next-export": "^0.1.7"
   }
 }
+=======
+{
+  "name": "company",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "glob": "^7.1.2",
+    "jquery": "^3.3.1",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-async-script-loader": "^0.3.0",
+    "react-body-attribute": "^1.0.2",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "1.1.0",
+    "style-loader": "^0.19.1",
+    "styled-jsx": "^2.2.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "heroku-postbuild": "npm run build"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "next-export": "^0.1.7"
+  }
+}
+>>>>>>> origin/master
